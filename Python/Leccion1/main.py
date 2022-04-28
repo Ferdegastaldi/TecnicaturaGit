@@ -9,3 +9,16 @@ y = 2
 z = x + y
 print(z)
 print(id(z))#dirección de memoria. Las literales de escriben como x123 (siendo 123 los últimos 3 numeros de la dirección)
+#Tipos de datos
+
+a: int = 5.0 #el :int es SOLO UNA REFERENCIA
+
+print(type(a))
+
+a = "Fer es la mejor"
+
+print(type(a))
+
+a = True
+
+print(type(a))
