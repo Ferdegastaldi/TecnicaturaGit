@@ -84,10 +84,157 @@ else:
     print("La persona no está dentro del rango")
 '''
 
-numero1 = int(input("Ingrese el primer numero:\n"))
+'''numero1 = int(input("Ingrese el primer numero:\n"))
 numero2 = int(input("Ingrese el segundo numero:\n"))
 
 if numero1 < numero2:
     print(f"El numero {numero2} es mayor al {numero1}")
 else:
-    print(f"El numero {numero1} es mayor al {numero2}")
+    print(f"El numero {numero1} es mayor al {numero2}")'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #Ejercicio: el mayor de 2 numeros
+'''numero1 = int(input("Ingrese un numero: "))
+numero2 = int(input("Ingrese otro numero: "))
+
+if numero1>numero2:
+    print("El primer numero es mayor al segundo")
+else:
+    print("El segundo numero es mayor al primero")'''
+
+#tienda de libros
+
+nombre = input("Nombre del libro: ")
+id = int(input("ID del libro: "))
+precio = float(input("Precio del libro: "))
+envioGratis = input("Envio gratis (True o False): ")
+
+if envioGratis == "True":
+    envioGratis = True
+elif envioGratis == "False":
+    envioGratis = False
+else:
+    envioGratis = "Valor incorrecto"
+
+print(f" Nombre del libro : {nombre}\n ID del libro: {id}\n Precio: {precio}\n Envio gratis: {envioGratis}")
